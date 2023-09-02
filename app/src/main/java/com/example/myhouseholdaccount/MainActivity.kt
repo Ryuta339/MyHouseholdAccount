@@ -1,6 +1,8 @@
 package com.example.myhouseholdaccount
 
 import android.os.Bundle
+import android.view.View
+import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.myhouseholdaccount.ui.theme.MyHouseholdAccountTheme
+import java.util.Date
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +29,11 @@ class MainActivity : ComponentActivity() {
         }
         */
         setContentView(R.layout.activity_main)
+    }
+
+    fun btnCurrentClick(v: View) {
+        val txtResult = findViewById<TextView>(R.id.txtResult)
+        txtResult.text = Date().toString()
     }
 }
 

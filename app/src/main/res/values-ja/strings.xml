@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">MyHouseholdAccount</string>
     <string name="hello_world">こんにちは，世界！</string>
+    <string name="btnCurrent">現在時刻</string>
 </resources>

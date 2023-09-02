@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyHouseholdAccount</string>
     <string name="hello_world">Thank you World!</string>
+    <string name="btnCurrent">Current time</string>
 </resources>

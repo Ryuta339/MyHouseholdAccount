@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyHouseholdAccount</string>
+    <string name="hello_world">Thank you World!</string>
 </resources>

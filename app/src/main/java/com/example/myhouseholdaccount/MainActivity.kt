@@ -15,6 +15,7 @@ import com.example.myhouseholdaccount.ui.theme.MyHouseholdAccountTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        /*
         setContent {
             MyHouseholdAccountTheme {
                 // A surface container using the 'background' color from the theme
@@ -23,6 +24,8 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        */
+        setContentView(R.layout.activity_main)
     }
 }
 

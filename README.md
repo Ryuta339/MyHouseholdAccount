@@ -4,5 +4,8 @@
 
 - [x] Chapter 01 (2023/9/1)
 - [ ] Chapter 02
+	- 02-02 ConstraintLayoutが存在しない
+		- [ConstraintLayoutの追加の仕方](https://developer.android.com/training/constraint-layout?hl=ja#kts)
+		- [Gradle周りの変更](https://zenn.dev/y_mimura/scraps/d75609a474d35c)
 
 ## Step 2. 家計簿アプリを作る
